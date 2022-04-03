@@ -1,0 +1,17 @@
+//SWAPPING OF TWO NUMBERS WITHOUT ANY THIRD VARIABLE
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"A : ";
+	cin>>a;
+	cout<<"B : ";
+	cin>>b; // a=1;b=2
+	a=a+b; // a=3
+	b=a-b; // b=3-2= 1
+	a=a-b; //a=3-1= 2
+	cout<<endl<<"After swapping : "<<endl;
+	cout<<"A : "<<a<<endl<<"B : "<<b<<endl;
+	return 0;
+}
